@@ -1,7 +1,7 @@
 {
-  "name": "http-server",
+  "name": "builder-node",
   "preferGlobal": false,
-  "private": true,        // WARNING, this must always be set to true
+  "private": true, 
   "version": "0.0.1",
   "author": "Startsiden.no <support@startsiden.no>",
   "description": "a simple zero-configuration command-line http server",
@@ -9,7 +9,7 @@
     {
       "name": "Pål Eivind Nes",
       "email": "pal.nes@startsiden.no"
-    } ,
+    },
     {
       "name": "Dagfinn Reiersøl",
       "email": "dagfinnr@startsiden.no"
@@ -19,9 +19,8 @@
     "http-server": "./bin/http-server"
   },
   "scripts": {
-    "start": "node ./bin/http-server",
     "test": "echo Tests are run from the test hook",
-    "install": "grunt"
+    "postinstall": "grunt"
   },
   "main": "./lib/http-server",
   "repository": {
@@ -40,7 +39,7 @@
     "grunt-contrib-jshint" :  "*",
     "grunt-contrib-uglify" :  "*",
     "grunt-contrib-watch" :  "*",
-    "grunt-bower-task" :  "*",
+    "grunt-bower-task" :  "*"
   },
   "license": "MIT",
   "engines": {
