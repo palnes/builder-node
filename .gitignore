@@ -14,5 +14,7 @@ results
 npm-debug.log
 
 *.DS_Store
+thumbs.db
 node_modules/
 bower_components/
+static/
