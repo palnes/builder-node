@@ -20,14 +20,14 @@
   },
   "scripts": {
     "test": "echo Tests are run from the test hook",
-    "postinstall": "grunt"
+    "install": "grunt"
   },
   "main": "./lib/http-server",
   "repository": {
     "type": "git",
     "url": "https://github.com/palnes/builder-node.git"
   },
-  "devDependencies" : {
+  "dependencies" : {
     "grunt"   :  "*",
     "grunt-contrib-clean" :  "*",
     "grunt-contrib-compass" :  "*",
@@ -41,8 +41,7 @@
     "grunt-contrib-watch" :  "*",
     "grunt-bower-task" :  "*"
   },
-  "license": "MIT",
   "engines": {
-    "node": ">=0.6"
+    "node": ">=0.10.0"
   }
 }
