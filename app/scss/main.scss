@@ -1,5 +1,8 @@
 @import "variables";
 
+@import "cats/*.png";
+@include all-cats-sprites;
+
 body {
 	color: $color;
 	background-color: $bgcolor;
