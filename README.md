@@ -11,6 +11,7 @@ A project that exercises all the minimum requirements of a node.js implementatio
 4. Install latest stable PhantomJS 1.19.*
 5. Run these commands in project root
 
+
     $ npm install
     $ grunt
     $ grunt test
