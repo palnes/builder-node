@@ -4,12 +4,18 @@ module.exports = function(grunt) {
 
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
+    clean: ['node_modules', 'bower_components', 'static'],
     uglify: {
       dist: {
         files: {
           'static/js/main.min.js': 'app/js/main.js'
         }
       }
+    },
+    htmlmin: {
+        dist: {
+
+        } 
     },
     jshint: {
       files: ['Gruntfile.js', 'app/js/**/*.js', 'test/**/*.js'],
@@ -49,7 +55,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-bower-task');
 
 
-  grunt.registerTask('test', ['jshint', 'qunit']);
+  grunt.registerTask('test', ['jshint']);
 
   grunt.registerTask('default', ['bower:install', 'jshint', 'uglify']);
 

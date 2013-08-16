@@ -4,7 +4,7 @@
   "private": true, 
   "version": "0.0.1",
   "author": "Startsiden.no <support@startsiden.no>",
-  "description": "a simple zero-configuration command-line http server",
+  "description": "A sample project for testing node.js on Builder",
   "contributors": [ 
     {
       "name": "Pål Eivind Nes",
@@ -15,12 +15,9 @@
       "email": "dagfinnr@startsiden.no"
     } 
   ],
-  "bin": {
-    "http-server": "./bin/http-server"
-  },
   "scripts": {
-    "test": "echo Tests are run from the test hook",
-    "install": "grunt"
+    "test": "grunt test",
+    "install": "npm install -g grunt-cli"
   },
   "main": "./lib/http-server",
   "repository": {
@@ -42,6 +39,6 @@
     "grunt-bower-task" :  "*"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=0.10.*"
   }
 }
