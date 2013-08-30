@@ -1,0 +1,7 @@
+---
+# Install to template dir
+autoinstallver: 1
+name: builder-node
+version: 0.01
+tests: t/
+
