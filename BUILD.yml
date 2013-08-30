@@ -5,8 +5,4 @@ version: 0.01
 tests: t/
 type: nodeunit
 
-# debian packages that the tests requires to run.
-test_requires:
-    - nodeunit
-
 
