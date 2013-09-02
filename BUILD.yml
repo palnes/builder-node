@@ -7,6 +7,6 @@ type: nodeunit
 
 # debian packages that the tests requires to run.
 test_requires:
-    - nodejs
+    - startsiden-nodejs
 
 
