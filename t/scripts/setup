@@ -1,4 +1,4 @@
 #!/bin/bash
-npm install -g nodeunit
-npm install -g grunt
+npm install -g nodeunit grunt-cli
+npm install
 grunt uglify
