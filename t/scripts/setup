@@ -1,4 +1,4 @@
 #!/bin/bash
 npm install -g nodeunit
 npm install -g grunt
-grunt
+grunt uglify
