@@ -9,5 +9,6 @@ type: nodeunit
 test_requires:
     - startsiden-nodejs
     - libfreetype6
+    - libfontconfig
 
 
