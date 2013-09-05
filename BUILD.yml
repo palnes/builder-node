@@ -8,5 +8,6 @@ type: nodeunit
 # debian packages that the tests requires to run.
 test_requires:
     - startsiden-nodejs
+    - libfreetype6
 
 
