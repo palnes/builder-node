@@ -1,4 +1,4 @@
 #!/bin/bash
 npm install -g nodeunit grunt-cli
-npm install
+npm install --unsafe-perm
 grunt uglify
