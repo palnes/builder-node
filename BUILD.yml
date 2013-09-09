@@ -12,5 +12,6 @@ test_requires:
     - libfontconfig1
     - libpng12-0
     - rubygems
+    - git
 
 
