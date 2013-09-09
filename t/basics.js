@@ -2,7 +2,7 @@
 var fs = require('fs');
 module.exports = {
     'grunt generates compiled files' : function(test) {
-        test.expect(1);
+        test.expect(4);
         test.ok(fs.existsSync('./static/css/main.css'));
         test.ok(fs.existsSync('./static/index.html'));
         test.ok(fs.existsSync('./static/js/main.min.js'));
