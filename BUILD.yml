@@ -11,5 +11,6 @@ test_requires:
     - libfreetype6
     - libfontconfig1
     - libpng12-0
+    - rubygems
 
 
