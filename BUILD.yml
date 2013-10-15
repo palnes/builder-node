@@ -3,7 +3,7 @@ autoinstallver: 1
 name: builder-node
 version: 0.01
 tests: t/
-test_script: ./test.sh
+test_script: test.sh
 type: nodeunit
 
 # debian packages that the tests requires to run.
