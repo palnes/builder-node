@@ -6,6 +6,14 @@ tests: t/
 test_script: test.sh
 type: nodeunit
 
+excludedir:
+    - t
+    - node_modules
+    - app
+    - bower_components
+    - script
+    - robohydra
+
 # debian packages that the tests requires to run.
 test_requires:
     - startsiden-nodejs
