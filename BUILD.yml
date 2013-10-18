@@ -16,6 +16,7 @@ excludedir:
 
 # debian packages that the tests requires to run.
 test_requires:
+    - libmoosex-getopt-perl
     - startsiden-nodejs
     - libfreetype6
     - libfontconfig1
