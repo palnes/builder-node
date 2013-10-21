@@ -3,8 +3,7 @@ autoinstallver: 1
 name: builder-node
 version: 0.01
 tests: t/
-test_script: test.sh
-type: nodeunit
+test_command: testrunner --command nodeunit
 
 excludedir:
     - t
