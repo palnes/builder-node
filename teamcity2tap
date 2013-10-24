@@ -1,0 +1,8 @@
+#!/usr/bin/perl
+use Build::Debian::Test::Parser::TeamCity;
+my $cmd = join ' ', @ARGV;
+my $input = `$cmd`;
+my @input = split("\n", $input);
+my $parser = Build::Debian::Test::Parser::TeamCity->new;
+$parser->parse(\@input);
+print $parser->test_result->as_tap;
