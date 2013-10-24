@@ -2,8 +2,8 @@
 autoinstallver: 1
 name: builder-node
 version: 0.01
-tests: t/
-test_command: testrunner --command nodeunit
+tests: spec/
+test_command: prove -m -a archive.tgz --exec ./jasmine_tap --ext .js -r -v spec
 
 excludedir:
     - t
@@ -15,6 +15,7 @@ excludedir:
 
 # debian packages that the tests requires to run.
 test_requires:
+    - cpan-libtap-simpleoutput-perl
     - libmoosex-getopt-perl
     - startsiden-nodejs
     - libfreetype6

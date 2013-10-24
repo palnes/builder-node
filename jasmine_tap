@@ -1,0 +1,2 @@
+#!/bin/bash
+perl ./teamcity2tap 'jasmine-node --teamcity --matchall spec'
