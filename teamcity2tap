@@ -1,4 +1,5 @@
 #!/usr/bin/perl
+use lib '/build/lib';
 use Build::Debian::Test::Parser::TeamCity;
 my $cmd = join ' ', @ARGV;
 my $input = `$cmd`;
