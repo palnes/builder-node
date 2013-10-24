@@ -3,7 +3,7 @@ autoinstallver: 1
 name: builder-node
 version: 0.01
 tests: spec/
-test_command: prove -m -a archive.tgz --exec ./jasmine_tap --ext .js -r -v spec
+test_command: prove -m -a /archive.tgz --exec ./jasmine_tap --ext .js -r -v spec
 
 excludedir:
     - t
