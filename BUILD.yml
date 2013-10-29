@@ -16,9 +16,8 @@ excludedir:
 # debian packages that the tests requires to run.
 test_requires:
     - libfile-find-rule-perl
-    - libarchive-tar-perl
+    - cpan-libarchive-tar-perl
     - libfile-slurp-perl
-    - libfile-basename-perl
     - cpan-libtap-simpleoutput-perl
     - libmoosex-getopt-perl
     - startsiden-nodejs
