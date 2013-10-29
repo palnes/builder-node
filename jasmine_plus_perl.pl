@@ -1,3 +1,4 @@
+use lib '/build/lib';
 use Build::Debian::Test::Runner;
 my $runner = Build::Debian::Test::Runner->new(archive_file => 'archive.tgz');
 my $r1 = Build::Debian::Test::Runner::Single::Jasmine->new(file => 'spec/hello.Spec.js');
