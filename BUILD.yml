@@ -2,8 +2,8 @@
 autoinstallver: 1
 name: builder-node
 version: 0.01
-tests: spec/
-test_command: prove -m -a /archive.tgz --exec ./jasmine_tap --ext .js -r -v spec
+tests: spec/ t/
+test_command: perl jasmine_plus_perl.pl
 
 excludedir:
     - t
@@ -15,6 +15,10 @@ excludedir:
 
 # debian packages that the tests requires to run.
 test_requires:
+    - libfile-find-rule-perl
+    - libarchive-tar-perl
+    - libfile-slurp-perl
+    - libfile-basename-perl
     - cpan-libtap-simpleoutput-perl
     - libmoosex-getopt-perl
     - startsiden-nodejs
