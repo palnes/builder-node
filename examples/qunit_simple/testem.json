@@ -1,0 +1,9 @@
+{
+    "framework": "qunit",
+    "src_files": [
+        "examples/qunit_simple/hello.js",
+        "examples/qunit_simple/tests.js",
+        "examples/qunit_simple/tests2.js"
+    ]
+}
+

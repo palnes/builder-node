@@ -3,7 +3,7 @@ autoinstallver: 1
 name: builder-node
 version: 0.01
 tests: spec/ t/
-test_command: testrunner -d 't .t Perl' -d 'spec .Spec.js Jasmine'
+test_command: testrunner --testem_file examples/qunit_simple/testem.json
 
 excludedir:
     - t
