@@ -11,6 +11,7 @@ The following is the basic outline of requirements and order of execution.
 3. Clone this project 
 4. Run these commands in project root:
 
+
 ```
 $ npm install
 $ grunt
